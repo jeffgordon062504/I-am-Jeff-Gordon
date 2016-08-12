@@ -20,6 +20,7 @@
 		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.75em;
+        letter-spacing: .5px;
 	}
 
 	a {
@@ -446,7 +447,7 @@
 			display: inline-block;
 			margin: 0 0 1.25em 0;
 			color: #ffffff;
-			background: #629DD1;
+			background: #f6523d;
 			width: 3em;
 			height: 3em;
 			font-size: 2em;
@@ -468,6 +469,7 @@
 		.image img {
 			border-radius: 6px;
 			display: block;
+			margin-bottom: 20px;
 		}
 
 		.image.left {
@@ -986,7 +988,7 @@
 
 	#banner {
 		background-color: #666666;
-		background-image: url("../images/banner.jpg");
+		background-image: url("../images/portfolio/personalprojects/viewmaster_440px.gif");
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -1093,3 +1095,17 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+
+.gallery li {
+    max-width: 100%;
+    list-style:none;
+}
+
+img {
+    width: 33.333%;
+    max-width: 100%;
+    float: left;
+}
+
+/* Responsive Portfolio Grid */
+
